@@ -47,5 +47,9 @@ namespace Entidad
 
         }
 
+        public override string ToString()
+        {
+            return $"Identificacion:{Identificacion} Nombre: {Nombre} Edad: {Edad} Sexo:{Sexo} Pulsacion {Pulsacion}";
+        }
     }
 }
